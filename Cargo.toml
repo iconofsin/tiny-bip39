@@ -41,7 +41,7 @@ pbkdf2 = { version = "0.11.0", default-features = false }
 rand = { version = "0.8.5", optional = true }
 once_cell = "1.12.0"
 unicode-normalization = "0.1.19"
-zeroize = { version = "1.5.5", features = ["zeroize_derive"] }
+zeroize = { version = "1.3", features = ["zeroize_derive"] }
 
 [dev-dependencies]
 hex = "0.4.3"
